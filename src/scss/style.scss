@@ -1,36 +1,10 @@
-* { margin: 0; padding: 0 }
-html, body {
-    margin: 0;
-    padding: 0;
-    border:1px;
-    vertical-align:center;
-    font-family:"Open Sans", Arial, Helvetica, sans-serif;
-    font-size:14px;
-    color:#333;
-    height: 100%;
-    background-position: center center;
-    background-size: cover;
-    background-origin:border-box;
-    background-attachment: fixed;
-    background-image: url(../images/hurma.jpg);
-    cursor: default;
+body{
+  background: #f6f6f6;
+  color: #f8f8f8;
+  display: flex;
+  justify-content: center;
 }
-.wrapper {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -ms-flex-pack: center;
-    height: 100%;
-}
+
 #content {
     display: inline-block;
     width: 100%;
