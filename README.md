@@ -13,43 +13,20 @@ Bu projenin çalışması için [node 5 ve sonrası](https://nodejs.org/en/) kur
 npm i -g webpack webpack-dev-server
 ```
 
-Bu projenin kurulumu yarn ile yönetilmektedir (bkz. Kurulum kılavuzu [here](https://yarnpkg.com/en/)). Bununla birlikte, kurulum yönetiminiz için kurulum paketi yöneticisi olan npm'yi kullanabilirsiniz.
-
 ## Kurulum
 + Bu projeyi bir klasöre kopyalayın
 ```bash
 git clone https://github.com/falconsw/react-time.git <KLASÖR_ADI>
 ```
 
-## Paketleri Kurma
-+ Yarn ile kurmak için
-```bash 
-yarn install
-```
-
-+ NPM ile kurmak için
 ```bash 
 npm install
-```
-
-## Paketi Çalıştırmak
-
-Paketi oluşturmak için ; 
-```bash
- yarn run build
-```
-
-veya 
+``` 
 
 ```bash
  npm run build
 ```
 
-Son olarak aşağıdaki komutlar ile projemizi çalıştırıyoruz
-```bash
-yarn start
-```
-veya
 ```bash
 npm start
 ```
